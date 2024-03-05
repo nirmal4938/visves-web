@@ -85,7 +85,7 @@ export const Navbar = () => {
                   </a>
                 </li>
                 <li>
-                  <a className="dropdown-item" href="#">
+                  <a className="dropdown-item" href="/gallery">
                     Gallery
                   </a>
                 </li>

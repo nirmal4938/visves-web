@@ -8,6 +8,8 @@ import "./components/styles/global.css";
 import { Products } from "./components/pages/products";
 import { Services } from "./components/pages/services";
 import { Contact } from "./components/pages/contactus";
+import { Gallery } from "./components/pages/gallery";
+
 export const App = () => {
   return (
     <div className="app">
@@ -19,6 +21,7 @@ export const App = () => {
           <Route path="/products" element={<Products />} />
           <Route path="/contact-us" element={<Contact />} />
           <Route path="/services" element={<Services />} />
+          <Route path="/gallery" element={<Gallery />} />
         </Routes>
         <Footer />
       </Router>
