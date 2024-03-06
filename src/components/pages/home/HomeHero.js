@@ -7,7 +7,9 @@ import sensorModuleImage from "../../assets/images/sensor_module.svg";
 import miliMachinaryImage from "../../assets/images/mili_machinery.svg";
 import intrafcingModuleImage from "../../assets/images/mili_machinery.svg";
 import imagex from "../../assets/images/aboutusImages/about_us_hero_right_image.svg";
+import { useNavigate } from "react-router-dom";
 export const Hero = () => {
+  const navigate = useNavigate()
   const text = "TECHNICAL SERVICES & SUPPORT"; // Text to be animated
   const delay = 100; // Delay between each letter in milliseconds
 
@@ -109,7 +111,7 @@ export const Hero = () => {
                 Development.
               </p>
             </a>
-            <button type="button" className="brand-button">
+            <button type="button" className="brand-button" onClick={() =>navigate('/products')}>
               Our products
               <img src={img_} alt="Icon" />
             </button>

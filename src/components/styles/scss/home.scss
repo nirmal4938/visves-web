@@ -93,12 +93,13 @@
     background-color: #111536;
     .row {
       display: flex;
-      justify-content: center;
-      align-items: center;
+      justify-content: flex-start;
+      align-items: flex-start;
       text-align: center;
     }
     .hero-text-section {
       text-align: start;
+      margin: 10%;
     }
 
     .hero-image {
@@ -368,7 +369,7 @@
 }
 
 .module-row {
-  top: 870px;
+  top: 750px;
   position: absolute;
   z-index: 1000;
   left: 50%;
@@ -409,7 +410,7 @@
 
   .hero-card-content {
     margin: 3px;
-    margin-top: auto;
+    margin-top: 10%;
     margin-bottom: auto;
   }
   .hero-card-img-top {
@@ -420,11 +421,12 @@
   .hero-card-title {
     font-family: "Space Grotesk";
     font-style: normal;
-    font-weight: 700;
-    font-size: 24px;
+    font-weight: 600;
+    font-size: 20px;
     line-height: 25px;
     text-align: center;
     text-transform: uppercase;
     color: #05092b;
+    margin: 5%;
   }
 }
